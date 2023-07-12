@@ -60,7 +60,7 @@
               <p>Hello, I'm <span class="text-danger">Trev Koni</span>, a passionate and aspiring <span class="text-danger">Software Engineer</span>. I have a strong background in <span class="text-danger">computer science</span> and a genuine love for coding. I am currently enrolled in a computer science bachelor's program at <span class="text-danger">Polis University</span>, where I have been exposed to various programming languages and technologies.</p>
             </div>
             <div class="col text-center">
-              <img src="img/polisLogo.png" alt="Polis University Logo">
+              <img src="img/linkedinProfilePic.png" alt="Me" height="500">
             </div>
           </div>
 
@@ -91,7 +91,7 @@
               <p><span class="text-danger">Collaboration and teamwork</span> are a part of my approach to software engineering. I enjoy working with others to bring ideas to life and create <span class="text-danger">innovative solutions</span>. My attention to detail, <span class="text-danger">problem-solving abilities</span>, and dedication make me a reliable and efficient software engineer.</p>
             </div>
             <div class="col text-center">
-              <img src="img/programmerTeam.png" alt="Team of Programmers" width="500">
+              <img src="img/programmerTeam.png" alt="Team of Programmers" width="300">
             </div>
           </div>
           <div class="spacer"></div>
@@ -179,7 +179,7 @@
 
             </div>
           </div>
-          <div class="col">
+          <div class="col d-none d-lg-block">
             <div class="row">
               <div class="col">
                 <img src="img/java.png" alt="Java Logo">
@@ -228,7 +228,7 @@
               <p><strong>Email:</strong> konitrev@gmail.com</p>
               <p><strong>Phone:</strong> (+355)69 696 7881</p>
               <p><strong>Linkedin:</strong> Trev Koni</p>
-              <p><strong>GitHub</strong> TrevKoni</p>
+              <p><strong>GitHub:</strong> TrevKoni</p>
             </div>
             <div class="col">
               <form action="https://formsubmit.co/2533eb33c0a2338513c0ce8985475596" method="POST">
@@ -264,7 +264,19 @@
 
 
     <script type="module" src="/main.js"></script>
-    <script src="/sidebar.js"></script>
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.getElementById("sideBtn").style.display = 'none';
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.getElementById("sideBtn").style.display = 'block';
+      }
+    </script>
     <script src="/bodycolors.js"></script>
   </body>
 </html>
